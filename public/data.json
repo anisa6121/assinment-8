@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+"name": "Playing Cricket",
+"age": "15-20",
+"text": "Cricket is a great team sport. We all love to watch cricket and invariably go gaga over our favorite team. However, there are a few passionate lovers who get down to playing the game themselves. From gully cricket, school-level matches and inter-state tournaments; while the magnitude of enthusiasm for this game keeps increasing, there are myriad benefits of playing cricket that are hard to ignore. Read through to learn more about the health benefits of playing cricket.",
+"time": 35,
+   "img":" https://images.unsplash.com/photo-1599982917650-21da4d09c437?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=952&q=80"
+  },
+
+  {
+ "id": "2",
+"name": "Playing Football",
+"age": "11-20",
+
+"text": "Football is in impact sport which, when played frequently, can be harsh on your joints compared to other non-weight bearing activities like swimming or cycling. Be sure to seek medical advice if you are unsure if football is right for you or if you experience any ongoing pain during or after playing.",
+"time": 20,
+
+"img":"https://cdn.pixabay.com/photo/2022/08/17/15/46/soccer-7392844_960_720.jpg"
+  },
+ 
+   {
+    "id": "3",
+"name": "Walking",
+"age": "15-50",
+"text": "Rising early is the secret to productivity for many successful people. From athletes to doctors, people who get things done recommend waking up early because it gives you a headstart to your day and more time to complete errands or work.",
+"time": 30,
+"img":" https://media.istockphoto.com/photos/mid-aged-woman-running-in-city-park-picture-id1094475872?s=612x612"
+  },
+  
+  {
+    "id": "4",
+"name": "Dumble Exercise",
+"age": "15-30",
+"text": "If you've ever worked out in a gym, you may have used dumbbells for strength training. Maybe you have a set lying around your home. Here's what you need to know about using them during your workouts. Dumbbells are small bars that fit in your hand and have equal weights on either side. They weigh as little as 2 pounds and go up to over 100 pounds.",
+"time": 40,
+   "img":"https://manofmany.com/wp-content/uploads/2020/07/Best-Dumbbell-Exercises-For-Men.jpg"
+  },
+  
+   {
+    "id": "5",
+"name": "Group Study",
+"age": "14-25",
+"text": "If you put off studying until the last minute, regularly scheduled group study sessions can eliminate your procrastination. You will have a set time for studying and are accountable to your group members, which makes it less likely you will procrastinate about your studies. Students in study groups usually learn faster than students who study alone. If you don't understand a concept, you can ask your fellow group members questions that will help you understand. Having someone clear up your confusion saves time that you would have spent trying to figure out difficult concepts.",
+"time": 60,
+   "img":" https://media.istockphoto.com/photos/diverse-group-of-friends-discussing-a-book-in-library-picture-id583816330"
+  },
+  
+{
+"id": "6",
+"name": "Study",
+"age": "15-230",
+"text": "There are a lot of skills needed to achieve good grades and to have an excellent academic level. In order to be successful, students need good study skills. Study skills are a set of skills which help students become effective learners (Oxford Dictionaries | English, 2017). This strategy of study helps students become more effective and make the studying easier by using a lot of skills and a productive learning method. It is a method to learn and a key to be successful in all types of studies. When people read or study they do it to have a better understanding and to learn something new. There are many benefits of study skills.",
+"time": 60,
+   "img":"https://image.shutterstock.com/image-photo/young-asian-girl-student-wears-600w-1903254544.jpg"
+  }
+
+]
