@@ -37,6 +37,18 @@ const Answer = () => {
 					and write
 				</p>
 			</div>
+
+			<div>
+				<h1>useEffect</h1>
+				<p>
+					useEffect Apart from the data load which it
+					is used for-directly updating the DOM, and timers.
+
+useEffect accepts two arguments. The second argument is optional.(useeffect(function,dependency) )
+
+
+				</p>
+			</div>
 		</div>
     );
 };
