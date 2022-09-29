@@ -17,32 +17,29 @@ const Activity = () => {
     },[])
 
 
+  const handleAddToExercise = (data) => {
+		console.log("cliked", data);
+  };   
+
     return (
 		<div className="activity-container">
-		<div>
-                <Header></Header>
-                
-                <div className="card">
-                   
-            {
-             activities.map(exersise => <Exercise           
-                        
-                 exersise={exersise}
-                 
-                 key={exersise.id}
-                        
-                        ></Exercise>)
-                        
-             }   
-                
-    </div>
+			<div>
+				<Header></Header>
+
+	<div className="card">
+	{activities.map((exersise) => (
+	<Exercise exersise={exersise}
+			key={exersise.id}
+		handleAddToExercise={handleAddToExercise}
+						></Exercise>
+					))}
+				</div>
 			</div>
 
 			<div className="side-container">
-				
-<Information></Information>
+				<Information></Information>
 
-<Break></Break>
+				<Break></Break>
 			</div>
 		</div>
     );

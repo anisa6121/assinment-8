@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from "react";
+import Cart from "../Cart/Cart";
 import "./Break.css";
 
 const Break = () => {
@@ -18,7 +19,7 @@ const Break = () => {
 
 			<div className="detail">
 				<h3> Exercise Details</h3>
-
+<Cart></Cart>
 				<div className="break-time">
 					<h3>Break Time: {first}seconds </h3>
 				</div>
