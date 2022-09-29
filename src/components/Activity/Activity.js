@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Answer from "../Answer/Answer";
 import Break from "../Breaktime/Break";
 import Cart from "../Cart/Cart";
 import Exercise from "../Exercise/Exercise";
@@ -48,7 +49,9 @@ const Activity = () => {
     <Break></Break>
                
     <Cart cart={cart}></Cart>
-	</div>
+        </div>
+        
+        <Answer></Answer>
 	</div>
     );
 };

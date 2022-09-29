@@ -20,12 +20,13 @@ button{
 }
 
 .detail{
-    margin-left: 3px;
+ margin-left: 3px;
 }
 .break-time{
     border: 1px solid wheat;
     margin: 3px;
     height: 60px;
+    padding: 6px;
     border-radius: 16px;
     background-color: white;
     margin-bottom: 5%;
