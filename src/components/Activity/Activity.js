@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Exercise from "../Exercise/Exercise";
 import Header from "../Header/Header";
+import Information from "../Self-Info/Information";
 import "./Activity.css";
 const Activity = () => {
 
@@ -36,8 +37,11 @@ const Activity = () => {
     </div>
 			</div>
 
-			<div>
-				<h1>Its one</h1>
+			<div className="side-container">
+				
+<Information></Information>
+
+
 			</div>
 		</div>
     );

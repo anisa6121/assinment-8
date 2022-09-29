@@ -13,6 +13,26 @@ body{
     grid-template-columns: repeat(3, 1fr);
 }
 
+.side-container{
+    background-color: bisque;
+  
+}
+
+
+@media only screen and (max-width: 992px) {
+    .activity-container {
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+  .card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -27,3 +47,5 @@ body{
     }
 
 }
+
+
