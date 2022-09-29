@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Break from "../Breaktime/Break";
 import Exercise from "../Exercise/Exercise";
 import Header from "../Header/Header";
 import Information from "../Self-Info/Information";
@@ -41,7 +42,7 @@ const Activity = () => {
 				
 <Information></Information>
 
-
+<Break></Break>
 			</div>
 		</div>
     );
