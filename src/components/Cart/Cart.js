@@ -4,7 +4,7 @@ import "./Cart.css";
 const Cart = (props) => {
  const { cart } = props
      
-   const notify = () => toast("Wow your activity complete"); 
+   const notify = () => toast("Wow done your activity"); 
     
     // console.log(cart)
     let times = 0;
