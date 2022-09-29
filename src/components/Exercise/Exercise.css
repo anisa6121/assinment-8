@@ -33,6 +33,6 @@ width: 286px;
    border-radius: 8px;
 }
 .btn-select:hover{
-    background-color: palevioletred
-    ;
+  background-color: palevioletred;
+  padding: 12px 40px;
 }

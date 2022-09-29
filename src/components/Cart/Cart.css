@@ -8,3 +8,11 @@
     padding: 6px;
 
 }
+
+.tost button{
+    margin-top: 14%;
+    background-color: blue;
+    padding: 15px 50px;
+    color: white;
+    margin-left: 9%;
+}

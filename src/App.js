@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Activity from './components/Activity/Activity';
+
+ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -13,3 +14,4 @@ function App() {
 }
 
 export default App;
+

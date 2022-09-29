@@ -19,6 +19,12 @@ button{
  background-color: orange;
 }
 
+.btn:hover{
+    background-color: blue;
+    color: white;
+    padding: 7px;
+}
+
 .detail{
  margin-left: 3px;
 }
