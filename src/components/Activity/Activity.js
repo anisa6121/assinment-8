@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Break from "../Breaktime/Break";
+import Cart from "../Cart/Cart";
 import Exercise from "../Exercise/Exercise";
 import Header from "../Header/Header";
 import Information from "../Self-Info/Information";
@@ -7,6 +8,8 @@ import "./Activity.css";
 const Activity = () => {
 
     const [activities, setActivity] = useState([]);
+
+    const [cart, setCart] = useState([])
     
     useEffect(() => {
         
@@ -18,7 +21,10 @@ const Activity = () => {
 
 
   const handleAddToExercise = (data) => {
-		console.log("cliked", data);
+      console.log("cliked", data);
+      const newCart = [...cart, data];
+      
+    setCart(newCart);
   };   
 
     return (
@@ -37,11 +43,13 @@ const Activity = () => {
 			</div>
 
 			<div className="side-container">
-				<Information></Information>
+	<Information></Information>
 
-				<Break></Break>
-			</div>
-		</div>
+    <Break></Break>
+               
+    <Cart cart={cart}></Cart>
+	</div>
+	</div>
     );
 };
 

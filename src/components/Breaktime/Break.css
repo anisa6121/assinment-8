@@ -5,13 +5,11 @@
    margin: 4px;
    border-radius: 9px;
    margin-top: 12%;
-   
-   display: flex;
+display: flex;
 justify-content: center;
 align-items: center;
-
-
 }
+
 
 button{
  margin: 5px;
@@ -19,8 +17,6 @@ button{
  border-radius: 16px;
  border: none;
  background-color: orange;
-
-   
 }
 
 .detail{
@@ -32,4 +28,5 @@ button{
     height: 60px;
     border-radius: 16px;
     background-color: white;
+    margin-bottom: 5%;
 }

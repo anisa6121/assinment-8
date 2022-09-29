@@ -1,6 +1,7 @@
 import React from 'react';
+import Break from '../Breaktime/Break';
 import "./Exercise.css";
-const Exercise = ({ exersise, handleAddToExercise }) => {
+const Exercise = ({ exersise, handleAddToExercise , cart}) => {
 	// console.log(props.exersise)
 	console.log(exersise);
 
@@ -24,8 +25,10 @@ const Exercise = ({ exersise, handleAddToExercise }) => {
 					className="btn-select"
 				>
 					Add To List
-				</button>
-			</div>
+                </button>
+                
+            </div>
+            
 		</div>
 	);
 };

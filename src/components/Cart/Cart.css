@@ -1,0 +1,10 @@
+.total-count{
+    border: 1px solid gray;
+    height: 60px;
+    margin: 4px;
+    border-radius: 16px;
+    border: none;
+    background-color: white;
+    padding: 3px;
+
+}

@@ -18,11 +18,11 @@ const Break = () => {
 			</div>
 
 			<div className="detail">
-				<h3> Exercise Details</h3>
-<Cart></Cart>
-				<div className="break-time">
-					<h3>Break Time: {first}seconds </h3>
-				</div>
+                <h3> Exercise Details</h3>
+                
+            <div className="break-time">
+			<h3>Break Time: {first}seconds </h3>
+			</div>
 			</div>
 		</div>
     );
